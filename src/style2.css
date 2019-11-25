@@ -1,0 +1,24 @@
+/* 入场 */
+/* 初始化也有动画 appear */
+.my-node-enter,.my-node-appear {
+  opacity: 0;
+}
+.my-node-enter-active, .my-node-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+.my-node-enter-done {
+  opacity: 1;
+}
+
+/* 出场 */
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.my-node-exit-done {
+  opacity: 0;
+}
